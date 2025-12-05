@@ -1,8 +1,8 @@
-# DM4Edu
+# DM4Edu : Predicting Academic Performance Based On Student Behavior
 
 ## Overview
 
-This project is a data mining study which aims at predicting students' final exam scores (exam_score) based on an analysis of their behavioral, lifestyle and environmental features.
+This project is a data mining study which aims at predicting students' final exam scores **(exam_score)** based on an analysis of their behavioral, lifestyle and environmental factors.
 
 ### Objectives
 
@@ -24,13 +24,15 @@ The main objective is to predict the continuous variable exam_score
 
 ### Data & Preprocessing Summary
 
-- Dataset: **student_habits_performance.csv** (1000 rows, 16 columns).
+- **Dataset:** _**student_habits_performance.csv**_ (1000 rows, 16 columns).
 
-- Target: **exam_score** (Numeric, range 18.4–100).
+- **Target:** _**exam_score**_ (Numeric, range 18.4–100).
 
-- Missing Values: 91 missing values in **parental_education_level** were imputed using the Mode (High School).
+- **Missing Values:** 91 missing values in _**parental_education_level**_ were imputed using the Mode (High School).
 
-- Feature Engineering: A composite feature, **total_screen_time** **(social_media_hours + netflix_hours)**, was created to capture overall digital distraction.
+- **Categorical Feature Encoding:** Both ordinal and binary encoding is done on the categorical variables to prepare the data for model training.
+
+- **Feature Engineering:** A composite feature, _**total_screen_time**_ _**(social_media_hours**_ **+** _**netflix_hours)**_, was created to capture overall digital distraction.
 
 ### Project Workflow - Pipeline (Excpected to be carried out)
 
